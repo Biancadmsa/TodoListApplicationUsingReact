@@ -14,16 +14,17 @@ const Home = () => {
   
       <ul>
         <li>
-          <input type="text" 
+          <input type="text"  maxlength="38"
           onChange={(e)=> setInputValue(e.target.value)} 
           value={inputValue} 
           onKeyDown= {(e) => {
           
             if (e.key === "Enter"){
+              if(todos.length < 10){
               setTodos(todos.concat(inputValue));
               setInputValue("");
             }
-         }}
+         }}}
           
           placeholder="What needs to be done?"></input>
         </li>
