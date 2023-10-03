@@ -21,8 +21,10 @@ const Home = () => {
           
             if (e.key === "Enter"){
               if(todos.length < 10){
+                if(inputValue.trim() !== ""){
               setTodos(todos.concat(inputValue));
               setInputValue("");
+                } else alert("ingresa un texto")
             }
          }}}
           
