@@ -9,94 +9,32 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
-*{background: rgb(108, 186, 223);}
-:app {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
+/* */
+
+.container{
+  margin-top: 100px;
   
-    color-scheme: light dark;
-    color: rgba(13, 13, 13, 0.87);
-    background-color: #c9bfbf;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  
-  .app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .formTask{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(189, 144, 232);
-    width: auto;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 10px rgba(187, 90, 170, 0.75);
-    padding: 20px;
-  }
-  
-  button{
-    width: 50px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: rgb(129, 0, 250);
-    border: none;
-    cursor: pointer;
-    font-size: medium;
-  }
-  
-  input{
-    width: 300px;
-    height: 30px;
-    margin-right: 5px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    text-align: center;
-    background-color: rgb(245, 198, 239);
-    color:black;
-    font-size: medium;
-  }
-  
-  li{
-    flex-direction: row;
-    align-items: center;
-    width: 500px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: larger;
-    font-weight: bold;
-    margin: 5px;
-  }
-  
-  .alert{
-    background-color: #fc0808;
-    font-size: medium;
-    font-weight: bold;
-    color: black;
-    border-radius: 10px;
-    padding: 15px;
-  }
-  
-  .bDelete{
-    background-color: #fc0808;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px;
-  }
+}
+
+
+h1{
+  text-align: center;
+  color:red
+}
+
+ul{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+ul li{
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px;
+
+}
+
+input{
+  border:none;
+  width: 100%;
+}
