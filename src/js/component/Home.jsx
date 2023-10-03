@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 
 
-// [ ]
+
 const Home = () => {
   const [inputValue, setInputValue] = useState("");
   const [todos, setTodos]=useState([]);
